@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from tortoise.contrib.fastapi import register_tortoise
+from app.config import cors_origins_list
 
 from app.config import settings
 from app.routers import services, leads, auth  # and auth if you have it
@@ -10,10 +11,7 @@ app = FastAPI(title="Anaya Homecare API")
 # CORS for Vite dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-    ],
+    allow_origins=cors_origins_list(),  # ← Use the function from config
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
