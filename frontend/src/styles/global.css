@@ -1,0 +1,96 @@
+:root {
+  --brand-primary: #004B87;
+  --brand-accent: #F54B8D;
+  --brand-bg: #F8FAFC;
+  --brand-text: #0F172A;
+  --brand-light: #ffffff;
+  --nav-height: 64px;
+}
+
+/* Base */
+html, body { 
+  height: 100%; 
+}
+
+body {
+  margin: 0;
+  background: var(--brand-bg);
+  color: var(--brand-text);
+  padding-top: var(--nav-height);
+}
+
+/* Navbar - keep shadow but no gap */
+.navbar {
+  margin-bottom: 0 !important;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* Make hero section flush against navbar */
+.hero {
+  margin-top: 0 !important;
+  padding-top: 6rem;
+}
+
+main {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
+  color: white;
+  text-align: center;
+  padding: 6rem 1rem 5rem;
+}
+
+.hero h1 { 
+  font-weight: 700; 
+}
+
+.hero p { 
+  opacity: 0.95; 
+}
+
+/* Buttons */
+.btn-primary { 
+  background: var(--brand-primary); 
+  border: none; 
+}
+
+.btn-primary:hover { 
+  background: #003b6a; 
+}
+
+.btn-accent { 
+  background: var(--brand-accent); 
+  color: #fff; 
+  border: none; 
+}
+
+.btn-accent:hover { 
+  filter: brightness(.92); 
+}
+
+/* Sections */
+.section { 
+  padding: 3rem 0; 
+}
+
+/* Cards */
+.card { 
+  border: none; 
+  border-radius: .75rem; 
+  box-shadow: 0 3px 8px rgba(0,0,0,.08); 
+}
+
+.card-title { 
+  color: var(--brand-primary); 
+}
+
+/* Footer */
+.site-footer { 
+  background: #eef2f7; 
+  border-top: 1px solid #e5e7eb; 
+  color: #334155; 
+}
