@@ -9,7 +9,7 @@ export default function Navbar() {
         <a className="navbar-brand fw-bold" href="/" key="navbar-brand-with-logo">
           <img src="/logo.jpg" alt="Anaya Home Care Logo" height="40" style={{display: 'inline-block', verticalAlign: 'middle', marginRight: '8px'}} />
           <span style={{ color: "#004B87" }}>Anaya</span>
-          <span style={{ color: "#F54B8D" }}> Home&nbsp;Care</span>
+          <span style={{ color: "#F54B8D" }}>Home&nbsp;Care</span>
         </a>
 
         <button
