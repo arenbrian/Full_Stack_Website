@@ -129,7 +129,7 @@ export default function Home() {
             <div className="col-lg-6 mb-4 mb-lg-0">
               <h2 className="fw-bold mb-4">Comprehensive Homecare Services</h2>
               <p className="text-muted mb-4">
-                From personal care assistance to skilled nursing, we offer a full range
+                From personal care assistance to homemaking services, we offer a full range
                 of services to support independent living and quality of life.
               </p>
               <ul className="list-unstyled">
@@ -157,7 +157,7 @@ export default function Home() {
                   >
                     <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
                   </svg>
-                  Medication Management
+                  Respite Care 
                 </li>
                 <li className="mb-2">
                   <svg
