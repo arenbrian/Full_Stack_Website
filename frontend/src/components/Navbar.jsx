@@ -7,9 +7,9 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-sm navbar-light bg-white shadow-sm fixed-top">
       <div className="container">
         <a className="navbar-brand fw-bold" href="/" key="navbar-brand-with-logo">
-          <img src="/logo.jpg" alt="Anaya Homecare Logo" height="40" style={{display: 'inline-block', verticalAlign: 'middle', marginRight: '8px'}} />
+          <img src="/logo.jpg" alt="Anaya Home Care Logo" height="40" style={{display: 'inline-block', verticalAlign: 'middle', marginRight: '8px'}} />
           <span style={{ color: "#004B87" }}>Anaya</span>
-          <span style={{ color: "#F54B8D" }}> Homecare</span>
+          <span style={{ color: "#F54B8D" }}> Home Care</span>
         </a>
 
         <button
